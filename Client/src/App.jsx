@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Projects from "./pages/Projects";
 import Skills from "./pages/Skills";
 import About from "./pages/About";
-import Contact from "./Pages/Contact";
+import Contact from "./pages/Contact";
 import Layout from "./components/Layout";
 import Home from "./pages/Home";
 
@@ -10,7 +10,7 @@ import Home from "./pages/Home";
 const App = () => {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/My-Portfolio">
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home/>} />

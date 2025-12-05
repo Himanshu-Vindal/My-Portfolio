@@ -11,6 +11,11 @@ const Home = () => {
             <Skills />
             <Projects />
             <Experience />
+            lk;sfdlkaflsfjlsaflksfklfjlsadf
+
+            sfdlkaflsfjlsaflksfklfjlsadfsadfsa
+            dfsafsadf
+   
         </div>
     )
 }
