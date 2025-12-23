@@ -60,7 +60,8 @@ const Contact = () => {
           <div className="rounded-2xl border border-white/10 bg-white/5 p-6">
             <p className="text-sm text-zinc-400">Call / WhatsApp</p>
             <p className="mt-2 text-sky-400 font-semibold">
-              +91 63781 58332
+              <a href="tel:+916378158332">+91 6378158332</a>
+         
             </p>
           </div>
         </div>

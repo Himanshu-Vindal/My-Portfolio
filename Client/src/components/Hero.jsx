@@ -77,6 +77,7 @@ const Hero = () => {
           <img
             src={ProfilePic}
             alt="Himanshu Vindal"
+            loading="lazy"
             className="        
             relative z-10 
             w-56 h-56 md:w-72 md:h-72 
@@ -90,6 +91,7 @@ const Hero = () => {
 
           {/* BACKGROUND GIF */}
           <img
+            loading="lazy"
             src={DevGif}
             alt="Coding animation"
             className="absolute w-80 md:w-96 opacity-25"    
