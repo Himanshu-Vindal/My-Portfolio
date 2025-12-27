@@ -7,7 +7,7 @@ import Contact from "./Contact";
 
 const Home = () => {
     return (
-        <div className="pt-[120px] md:pt-[1px]">
+        <div className="pt-[70px] md:pt-[1px]">
             <section id="hero" className="scroll-mt-[100px] ">
                 <Hero />
             </section>
